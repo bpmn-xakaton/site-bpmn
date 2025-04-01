@@ -1,19 +1,19 @@
+.container {
+    @apply bg-background h-screen;
+}
+
 .wrapper_v1 {
-    @apply relative bg-gray-800 w-[70vh] h-screen;
+    @apply absolute bg-gray-800 w-[70vh] h-screen;
 }
 
 .wrapper_bottom {
-    @apply absolute top-[45vh] left-0;
+    @apply relative top-[45vh] left-0;
 }
 
 .vector {
-    @apply h-auto w-[85%];
-}
-
-.wrapper_v2 {
-    @apply relative top-[42vh] left-0;
+    @apply absolute h-auto w-[85%];
 }
 
 .person {
-    @apply h-auto w-[80%];
+    @apply absolute h-auto w-[80%];
 }
