@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
         colors: {
-            "background": "#D0D0D0",
+            "background": "#D0D0D0", // это фон на главную страницу
         },
     },
   },
