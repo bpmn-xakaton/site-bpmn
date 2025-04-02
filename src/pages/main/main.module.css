@@ -1,19 +1,20 @@
 .container {
-    @apply bg-background h-screen;
+    @apply bg-background-right h-screen overflow-hidden relative;
 }
 
 .wrapper_v1 {
-    @apply absolute bg-gray-800 w-[70vh] h-screen;
-}
-
-.wrapper_bottom {
-    @apply relative top-[45vh] left-0;
-}
-
-.vector {
-    @apply absolute h-auto w-[85%];
+    @apply absolute left-0 w-[70vh] h-screen;
 }
 
 .person {
-    @apply absolute h-auto w-[80%];
+    @apply absolute h-auto w-[92%];
+}
+
+.wrapper_v2 {
+    @apply absolute ml-20 top-[350px] left-[55%];
+    transform: translate(-40%, -50%);
+}
+
+.logo {
+    @apply h-auto ml-[15%];
 }

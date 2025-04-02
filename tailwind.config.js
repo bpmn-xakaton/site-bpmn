@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-
+import daisyui from "daisyui"
 
 export default {
   content: [
@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
         colors: {
-            "background": "#D0D0D0", // это фон на главную страницу
+            "background-right": "#D0D0D0", // это фон на главную страницу
         },
     },
   },
-  plugins: [],
+  plugins: [daisyui,],
 }
